@@ -45,19 +45,24 @@
   line-height: 20px;
 }
 .axure-bottom {
-  margin-top: 30px;
-  margin: auto;
+  /* margin: 15px auto 0px; */
   text-align: center;
 }
 a.axure-bottom__bottom {
   border: 1px solid #fff;
-  text-align: center;
   text-transform: capitalize;
   line-height: 20px;
   color: #fff;
-  margin: 5px 10px;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
   padding: 10px 25px;
+}
+a.axure-bottom__bottom:hover {
+  background-color: #fff;
+  color: #212121;
+}
+a.axure-bottom__bottom:visited {
+  color: #e72424;
+  border: 1px solid #e72424;
 }

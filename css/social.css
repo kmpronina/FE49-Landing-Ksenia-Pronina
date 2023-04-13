@@ -42,6 +42,7 @@
 }
 i {
   transition: 0.2s;
+  color: #86878b;
 }
 .facebook-social:hover {
   transform: rotate(90deg);

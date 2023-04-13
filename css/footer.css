@@ -1,0 +1,28 @@
+.footer {
+  background-color: #000000;
+}
+#container-footer {
+  padding: 20px 0;
+  background: none;
+}
+.footer-nav {
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-nav li {
+  margin-left: 25px;
+}
+.footer-nav a {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.footer-trademark {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 9px;
+  line-height: 19px;
+  color: #86878b;
+}

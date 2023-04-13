@@ -48,6 +48,9 @@
   line-height: 50px;
   margin-bottom: 4px;
 }
+.pricing-card__free:last-child {
+  margin-bottom: 0;
+}
 .pricing-card__1gb {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;

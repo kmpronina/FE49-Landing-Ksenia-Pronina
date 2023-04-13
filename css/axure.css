@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   padding: 80px 0 45px;
-  z-index: 10;
+  z-index: 1;
   position: relative;
 }
 .axure::after {
@@ -21,9 +21,7 @@
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
-  /* background-color: rgba(0, 0, 0, 0); */
   background: none;
-  z-index: 1000;
 }
 #subtitle-axure {
   color: #fff;
@@ -45,7 +43,6 @@
   line-height: 20px;
 }
 .axure-bottom {
-  /* margin: 15px auto 0px; */
   text-align: center;
 }
 a.axure-bottom__bottom {

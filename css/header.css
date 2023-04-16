@@ -1,13 +1,17 @@
 .header {
   background-color: #000000;
   color: #fff;
+  padding: 20px 0;
 }
 #header-container {
-  padding: 20px 0;
+  padding: 0 15px;
   background: none;
+}
+.header-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
 }
 .header__logo {
   text-transform: uppercase;

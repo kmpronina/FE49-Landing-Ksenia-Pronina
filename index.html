@@ -10,34 +10,65 @@
   <body>
     <header class="header">
       <div class="container" id="header-container">
+        <div class="header-wrap">
       <div class="header__logo">
        <p>ax</p>
       </div>
       <ol class="nav">
-        <li><a class="feat" href="#">features</a></li>
-        <li><a class="about" href="#">about</a></li>
-        <li><a class="price" href="#">pricing</a></li>
-        <li><a class="reviews" href="#">reviews</a></li>
-        <li><a class="contact" href="#">contact</a></li>
+        <li class="nav-feat"><a class="fea-linkt" href="#">features</a></li>
+        <li class="nav-about"><a class="about-link" href="#">about</a></li>
+        <li class="nav-price"><a class="price-link" href="#">pricing</a></li>
+        <li lass="nav-reviews"><a class="reviews-link" href="#">reviews</a></li>
+        <li class="nav-contact"><a class="contact-link" href="#">contact</a></li>
       </ol>
     </div>
+    </div>
     </header>
+    <section class="first-screen">
+<div class="container" id="container-first-screen">
+  <div class="first-screen-wrap">
+    <div class="first-screen__info">
+        <div class="first-screen-logo"><p class="first-screen__logo">ax</p></div>
+        <h1 class="first-screen-title">modern axure template for beautiful prototypes</h1>
+        <div class="first-screen-title-description"><p class="first-screen-title__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero?</p></div>
+        <div class="first-screen-link"><a href="#" class="first-screen__link">download</a></div>
+    </div>
+    <form action="#" method="post" class="first-screen__form">
+      <div class="first-screen-form-content">
+        <h4 class="first-screen-form-content__title">try your <p class="first-screen-form-content-title__free">free</p> trial today</h4>
+        <div class="first-screen-form-item__name">
+        <label for="name" class="first-screen-form-label">name</label>
+        <input type="text" id="first-screen-name" name="name" class="first-screen-form-item"></div>
+        <div class="first-screen-form-item__email">
+        <label for="email" class="first-screen-form-label">email</label>
+        <input type="email" id="firast-screen-email" name="email" class="first-screen-form-item"></div>
+        <div class="first-screen-form-item__password">
+        <label for="password" class="first-screen-form-label">password</label>
+        <input type="password" id="first-screen-password" name="password" class="first-screen-form-item"></div>
+      </div>
+      <button type="submit" class="first-screen-form__button">get started</button>
+    </form>
+  </div>
+</div>
+    </section>
     <section class="social">
       <div class="container" id="container-social">
+        <div class="social-wrap">
         <div class="social-info">
           <h2 class="social-info-title">social media</h2>
           <p class="social-info-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias at modi accusamus.</p>
         </div>
         <div class="social-nav">
           <ol class="social-nav">
-            <li><a href="#" class="facebook-social-link"><i class="fa-brands fa-facebook-f facebook-social" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="twitter-social-link"><i class="fa-brands fa-twitter twitter-social" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="google-social-link"><i class="fa-brands fa-google-plus-g google-social" style="color: #86878b;"></i></a></li>
-            <li><a href="" class="pinterest-social-link"><i class="fa-brands fa-pinterest pinterest-social" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="instagram-social-link"><i class="fa-brands fa-instagram instagram-social" style="color: #86878b;"></i></a></li>
-            <li><a href="" class="stubleupon-social-link"><i class="fa-brands fa-stumbleupon stumbleupon-social" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="wifi-social-link"><i class="fa-solid fa-wifi wifi-social" style="color: #86878b;"></i></a></li>
+            <li class="facebook-social-link"><a href="#"><i class="fa-brands fa-facebook-f facebook-social"></i></a></li>
+            <li class="twitter-social-link"><a href="#"><i class="fa-brands fa-twitter twitter-social"></i></a></li>
+            <li class="google-social-link"><a href="#"><i class="fa-brands fa-google-plus-g google-social"></i></a></li>
+            <li class="pinterest-social-link"><a href="#"><i class="fa-brands fa-pinterest pinterest-social"></i></a></li>
+            <li class="instagram-social-link"><a href="#"><i class="fa-brands fa-instagram instagram-social"></i></a></li>
+            <li class="stubleupon-social-link"><a href="#"><i class="fa-brands fa-stumbleupon stumbleupon-social"></i></a></li>
+            <li class="wifi-social-link"><a href="#"><i class="fa-solid fa-wifi wifi-social"></i></a></li>
           </ol>
+        </div>
         </div>
       </div>
     </section>
@@ -51,7 +82,8 @@
         <div class="awesome-wrap">
           <div class="awesome-card">
             <div class="awesome-card__img">
-              <img src="./img/awesome/icon1.png" alt="icon1" />
+              <!-- <img src="./img/awesome/icon1.png" alt="icon1" /> -->
+              <i class="fa-sharp fa-regular fa-lightbulb"></i>
             </div>
             <h3 class="awesome-card__title">thoughtful design</h3>
             <div class="awesome-card__text">
@@ -65,7 +97,8 @@
 
           <div class="awesome-card">
             <div class="awesome-card__img">
-              <img src="./img/awesome/icon2.png" alt="icon2" />
+              <!-- <img src="./img/awesome/icon2.png" alt="icon2" /> -->
+              <i class="fa-regular fa-keyboard"></i>
             </div>
             <h3 class="awesome-card__title">well crafted</h3>
             <div class="awesome-card__text">
@@ -79,7 +112,8 @@
 
           <div class="awesome-card">
             <div class="awesome-card__img">
-              <img src="./img/awesome/icon3.png" alt="icon3" />
+              <!-- <img src="./img/awesome/icon3.png" alt="icon3" /> -->
+              <i class="fa-solid fa-bolt-lightning"></i>
             </div>
             <h3 class="awesome-card__title">eazy to customize</h3>
             <div class="awesome-card__text">
@@ -102,7 +136,8 @@
         <div class="pricing-wrap">
           <ul class="pricing-card">
             <li class="pricing-card__title">basic</li>
-            <li class="pricing-card__price">$10</li>
+            <li class="pricing-card__price" id="special-offer-10">$10</li>
+            <!-- <li class="pricing-card__price" id="special-offer-5">$5</li> -->
             <li class="pricing-card__free">Free for life</li>
             <li class="pricing-card__1gb">1 gb of space</li>
             <li class="pricing-card__1gb">1 gb of space</li>
@@ -144,7 +179,7 @@
         </div>
         <div class="customers-wrap">
           <div class="customres-card">
-            <div class="customers-card__opinion">
+            <div class="customers-card__opinion" id="customers-card__opinion-jeremy">
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni minima modi, impedit, reiciendis ab voluptatum voluptatem maiores nostrum odit debitis illum, fugiat similique vitae itaque? Laborum temporibus voluptate ipsam provident sunt ea, perspiciatis distinctio.</p>
             </div>
             <div class="customers-card__info">
@@ -158,7 +193,7 @@
             </div>
             </div>
             <div class="customres-card">
-              <div class="customers-card__opinion">
+              <div class="customers-card__opinion" id="customers-card__opinion-marry">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni minima modi, impedit, reiciendis ab voluptatum voluptatem maiores nostrum odit debitis illum.</p>
               </div>
               <div class="customers-card__info">
@@ -172,7 +207,7 @@
               </div>
               </div>
               <div class="customres-card">
-                <div class="customers-card__opinion">
+                <div class="customers-card__opinion" id="customers-card__opinion-tasha">
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni minima modi, impedit, reiciendis ab voluptatum voluptatem maiores nostrum odit debitis illum, fugiat similique vitae itaque? Laborum temporibus voluptate ipsam provident sunt ea, perspiciatis distinctio, fugiat similique vitae itaque? Laborum temporibus voluptate ipsam provident sunt ea, perspiciatis distinctio.</p>
                 </div>
                 <div class="customers-card__info">
@@ -195,8 +230,44 @@
         <div class="subtitle-description" id="subtitle-decription-axure">
           <p>Use the sectionts you need, remove the ones you don't. Create goergeous prototypes faster then ever!</p>
         </div>
+      
         <div class="axure-bottom">
           <a href="#" class="axure-bottom__bottom">download</a>
+        </div>
+      
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container" id="container-contact">
+        <h2 class="subtitle" id="subtitle-contact">contact us</h2>
+        <div class="subtitle-description" id="subtitle-description-contact">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contact-wrap">
+          <form action="#" method="post" class="contact__form">
+            <div class="contact-form-wrap">
+            <div class="contact-form__info">
+              <div class="contact-form-item__name">
+                <label for="name" class="contact-form-label">name</label>
+                <input type="text" id="contact-name" name="name" class="contact-form-item">
+              </div>
+              <div class="contact-form-item__email">  
+                <label for="email" class="contact-form-label">email</label>
+                <input type="email" id="contact-email" name="email" class="contact-form-item"></div>
+              <div class="contact-form-item__password">
+                <label for="password" class="contact-form-label">password</label>
+                <input type="password" id="contact-password" name="password" class="contact-form-item">
+              </div>
+            </div>
+            <div class="contact-form-message">
+             <label for="message" class="contact-form-label">message</label>
+             <textarea id="contact-message" name="message" class="contact-form-item"></textarea>
+          </div>
+        </div>
+        <div class="contact-form-button">
+          <button class="contact-form__buttom">send message</button>
+        </div>
+          </form>
         </div>
       </div>
     </section>
@@ -204,16 +275,16 @@
       <div class="container" id="container-footer">
         <div class="footer-nav">
           <ol class="footer-nav">
-            <li><a href="#" class="facebook-footer-link"><i class="fa-brands fa-facebook-f facebook-footer" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="twitter-footer-link"><i class="fa-brands fa-twitter twitter-footer" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="google-footer-link"><i class="fa-brands fa-google-plus-g google-footer" style="color: #86878b;"></i></a></li>
-            <li><a href="" class="pinterest-footer-link"><i class="fa-brands fa-pinterest pinterest-footer" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="instagram-footer-link"><i class="fa-brands fa-instagram instagram-footer" style="color: #86878b;"></i></a></li>
-            <li><a href="" class="stubleupon-footer-link"><i class="fa-brands fa-stumbleupon stumbleupon-footer" style="color: #86878b;"></i></a></li>
-            <li><a href="#" class="wifi-footer-link"><i class="fa-solid fa-wifi wifi-footer" style="color: #86878b;"></i></a></li>
+            <li class="footer-link"><a href="#" class="facebook-footer-link"><i class="fa-brands fa-facebook-f facebook-footer"></i></a></li>
+            <li class="footer-link"><a href="#" class="twitter-footer-link"><i class="fa-brands fa-twitter twitter-footer"></i></a></li>
+            <li class="footer-link"><a href="#" class="google-footer-link"><i class="fa-brands fa-google-plus-g google-footer"></i></a></li>
+            <li class="footer-link"><a href="#" class="pinterest-footer-link"><i class="fa-brands fa-pinterest pinterest-footer"></i></a></li>
+            <li class="footer-link"><a href="#" class="instagram-footer-link"><i class="fa-brands fa-instagram instagram-footer"></i></a></li>
+            <li class="ooter-link"><a href="#" class="stubleupon-footer-link"><i class="fa-brands fa-stumbleupon stumbleupon-footer"></i></a></li>
+            <li class="footer-link"><a href="#" class="wifi-footer-link"><i class="fa-solid fa-wifi wifi-footer"></i></a></li>
           </ol>
         </div>
-        <div class="footer-trademark"><p><i class="fa-sharp fa-regular fa-copyright" style="color: #86878b;"></i> 2015 axure themes</p></div>
+        <div class="footer-trademark"><p><i class="fa-sharp fa-regular fa-copyright"></i> 2015 axure themes</p></div>
       </div>
     </footer>
   </body>

@@ -22,6 +22,7 @@
   padding: 0 15px;
   margin: auto;
   background: none;
+  text-align: center;
 }
 #subtitle-axure {
   color: #fff;
@@ -42,24 +43,38 @@
   font-weight: 300;
   line-height: 20px;
 }
+
 .axure-bottom {
-  text-align: center;
+  /* margin: auto;
+  text-align: center; */
+  display: inline-block;
+  /* border: 1px solid #fff; */
+  /* padding: 10px 25px; */
+  transition: 0.5s;
+}
+.axure-bottom:hover {
+  /* background-color: #fff; */
+  /* color: #212121; */
+  transform: scale(1.2);
 }
 a.axure-bottom__bottom {
+  text-align: center;
   border: 1px solid #fff;
   text-transform: capitalize;
-  line-height: 20px;
+  line-height: 40px;
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
   padding: 10px 25px;
+  transition: 0.5s;
 }
 a.axure-bottom__bottom:hover {
   background-color: #fff;
   color: #212121;
+  /* transform: scale(1.5); */
 }
 a.axure-bottom__bottom:visited {
-  color: #e72424;
-  border: 1px solid #e72424;
+  color: #ec7979;
+  border: 1px solid #ec7979;
 }

@@ -8,21 +8,27 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -15px;
-  align-items: center;
+  /* align-items: center; */
 }
 .customres-card {
   width: 300px;
   margin: 0 15px 15px;
+  display: flex;
+  flex-direction: column;
 }
 .customers-card__opinion {
   background: #e2e2e2;
-  border-radius: 7px;
+  border-radius: 10px;
   margin: auto;
   text-align: center;
   color: #86878b;
   position: relative;
+  flex-grow: 10;
+  display: flex;
+  flex-direction: column;
 }
-.customers-card__opinion {
+.customers-card__opinion p {
+  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -49,7 +55,7 @@
   margin-top: 25px;
 }
 .cusstomers-card__img {
-  border: 0px solid #e72424;
+  border: 0px solid rgb(231, 36, 36);
   border-radius: 50%;
   height: 70px;
   width: 70px;

@@ -13,10 +13,12 @@
 }
 .footer-nav li {
   margin-left: 25px;
+  transition: 1s;
 }
 .footer-nav a {
   font-size: 30px;
   vertical-align: middle;
+  color: #86878b;
 }
 .footer-trademark {
   text-align: center;
@@ -25,4 +27,25 @@
   font-size: 9px;
   line-height: 19px;
   color: #86878b;
+}
+.facebook-footer:hover {
+  color: #3b5998;
+}
+.twitter-footer:hover {
+  color: #00acee;
+}
+.google-footer:hover {
+  color: #4285f4;
+}
+.pinterest-footer:hover {
+  color: #bd081c;
+}
+.instagram-footer:hover {
+  color: #3f729b;
+}
+.stumbleupon-footer:hover {
+  color: #eb4924;
+}
+.wifi-footer:hover {
+  color: cornflowerblue;
 }

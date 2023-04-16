@@ -14,12 +14,12 @@
 .awesome-card {
   width: 350px;
   background-color: #fff;
-  margin: 0 15px;
+  margin: 0 15px 30px;
 }
 
 .awesome-card__img {
   margin: auto;
-  border: 1px solid #e72424;
+  border: 1px solid #ec7979;
   border-radius: 50%;
   height: 70px;
   width: 70px;
@@ -30,11 +30,10 @@
   overflow: hidden;
 }
 
-.awesome-card__img img {
-  /* object-fit: contain;
-  object-position: center;
-  width: 50%;
-  height: 50%; */
+.awesome-card__img i {
+  color: #ec7979;
+  font-size: 35px;
+  vertical-align: middle;
 }
 
 .awesome-card__title {
@@ -49,7 +48,6 @@
 
 .awesome-card__text {
   margin: auto;
-  margin-bottom: 50px;
 }
 
 .awesome-card__text p {

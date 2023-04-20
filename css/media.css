@@ -100,6 +100,12 @@
   .pricing-card {
     width: 250px;
   }
+  .nav {
+    width: 75%;
+  }
+  .first-screen__logo:after {
+    width: 25%;
+  }
 }
 @media (max-width: 623px) {
   .awesome-card {
@@ -173,7 +179,6 @@
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 360px) {
   .container {
     width: 100%;

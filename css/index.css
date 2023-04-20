@@ -97,12 +97,6 @@ html {
   html {
     font-size: 12px;
   }
-  .nav {
-    width: 75%;
-  }
-  .first-screen__logo:after {
-    width: 25%;
-  }
 }
 
 @media only screen and (max-width: 576px) {

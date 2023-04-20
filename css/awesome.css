@@ -1,6 +1,6 @@
 .awesome {
   background-color: #fff;
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .awesome-wrap {
@@ -14,16 +14,16 @@
 .awesome-card {
   width: 350px;
   background-color: #fff;
-  margin: 0 15px 30px;
+  margin: 0 15px;
 }
 
 .awesome-card__img {
   margin: auto;
   border: 1px solid #ec7979;
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
-  margin-bottom: 25px;
+  height: 4.375rem;
+  width: 4.375rem;
+  margin-bottom: 1.5625rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,17 +32,17 @@
 
 .awesome-card__img i {
   color: #ec7979;
-  font-size: 35px;
+  font-size: 2em;
   vertical-align: middle;
 }
 
 .awesome-card__title {
   margin: auto;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #333;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   text-transform: capitalize;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .awesome-card__text p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #000;
   text-align: center;

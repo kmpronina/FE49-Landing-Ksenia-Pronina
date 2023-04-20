@@ -1,0 +1,114 @@
+.tabs {
+  background-color: #fff;
+  padding: 5rem 0;
+}
+.container {
+}
+.tabs-wrap {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -15px;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.tabs-tabs {
+  display: flex;
+  flex-direction: column;
+}
+.tabs-tabs__item {
+  width: 125px;
+  height: 125px;
+  margin: 0 15px 25px;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+.tabs-tabs__item:last-child {
+  margin-bottom: 0;
+}
+button.active {
+  background-color: #ec7979;
+}
+.tabs-content {
+  margin: 0 15px;
+}
+.tabs-content__item {
+  display: none;
+}
+.tabs-content__item.active {
+  display: block;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+.tabs-content-item-info {
+  width: 55%;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+.tabs-content-item__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.6875rem;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 3.125rem;
+}
+.tabs-content-item__description {
+  margin-bottom: 3.125rem;
+  flex-grow: 10;
+}
+.tabs-content-item__description p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  text-transform: uppercase;
+  color: #86878b;
+  margin-bottom: 15px;
+}
+.tabs-content-item__description p:last-child {
+  margin-bottom: 0;
+}
+.tabs-content-link {
+  max-width: 125px;
+  transition: 0.5s;
+}
+.tabs-content-link:hover {
+  transform: scale(1.2);
+}
+.tabs-content-link__link {
+  background-color: #ec7979;
+  display: block;
+  border: 1px solid #ec7979;
+  padding: 10px 25px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.tabs-content-link__link:hover {
+  background-color: #fff;
+  border: 1px solid #ec7979;
+  color: #ec7979;
+}
+.tabs-content-item-img {
+  margin: 0 15px;
+}
+.tabs-content-item-img img {
+  width: 100%;
+}

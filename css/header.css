@@ -21,23 +21,24 @@
   line-height: 35px;
   display: inline;
 }
-.header__logo p::after {
+.header__logo span::after {
   content: "it";
   display: inline;
   color: #ec7979;
 }
 .nav {
+  width: 500px;
   display: flex;
   justify-content: space-between;
 }
 .nav li {
-  margin-left: 45px;
+  /* margin-left: 45px; */
   transition: 0.1s;
 }
 .nav a {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 20px;
   text-transform: capitalize;
   color: #fff;

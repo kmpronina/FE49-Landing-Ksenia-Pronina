@@ -2,12 +2,14 @@
 @import url("./header.css");
 @import url("./social.css");
 @import url("./first_screen.css");
+@import url("./tabs.css");
 @import url("./awesome.css");
 @import url("./pricing.css");
 @import url("./customers.css");
 @import url("./axure.css");
 @import url("./contact.css");
 @import url("./footer.css");
+@import url("./media.css");
 
 * {
   margin: 0;
@@ -32,33 +34,33 @@ html {
 .subtitle {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2.25rem;
   text-transform: uppercase;
   color: #212121;
-  max-width: 700px;
+  max-width: 43.75rem;
   text-align: center;
   margin: auto;
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .subtitle::after {
   content: "";
   margin: auto;
-  margin-top: 35px;
+  margin-top: 2.1875rem;
   display: block;
-  width: 64px;
+  width: 4rem;
   height: 1px;
   background-color: #ec7979;
 }
 
 .subtitle-description {
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 .subtitle-description p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #86878b;
   text-align: center;
@@ -72,3 +74,51 @@ html {
   line-height: 20px;
   color: #bdbdbd;
 } */
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .nav {
+    width: 75%;
+  }
+  .first-screen__logo:after {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container {
+    width: 100%;
+  }
+  html {
+    font-size: 14px;
+  }
+  .subtitle-description {
+    margin-bottom: 15px;
+  }
+}

@@ -1,6 +1,6 @@
 .contact {
   background-color: #fff;
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 .contact-wrap {
   margin: auto;
@@ -11,56 +11,51 @@
 .contact-form-wrap {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   margin: 0 -15px 45px;
   text-align: left;
+  /* height: 100%; */
 }
 .contact-form__info {
-  width: 450px;
-  margin: 0 45px 0 15px;
-  flex-shrink: 10;
+  width: 40%;
+  margin: 15px;
 }
 .contact-form-label {
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 75px;
+  font-size: 0.875rem;
+  line-height: 4.6875rem;
   color: #bdbdbd;
 }
 .contact-form-item {
   display: block;
-  /* width: 400px; */
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   width: 100%;
   line-height: 40px;
-  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #333;
+  padding: 0 5px;
 }
 .contact-form-item:last-child {
   margin-bottom: 0;
 }
-.contact-form-item__name {
-}
-.contact-form-item__email {
-}
-.contact-form-item__password {
-}
 .contact-form-message {
-  margin: 0 15px 0 45px;
-  flex-shrink: 10;
+  width: 40%;
+  margin: 0 15px;
+  height: 100%;
 }
-#contact-message {
+textarea#contact-message {
   font-family: "Open Sans", sans-serif;
-  width: 400px;
-  height: 272px;
+  /* height: 272px; */
+  height: 100%;
   resize: none;
+  padding: 0 10px;
 }
 .contact-form-button {
   display: inline-block;

@@ -2,21 +2,21 @@
   background-color: #000000;
 }
 #container-footer {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   background: none;
 }
 .footer-nav {
-  margin: 0 auto 10px;
+  margin: 0 auto 0.625rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .footer-nav li {
-  margin-left: 25px;
+  margin-left: 1.5625rem;
   transition: 1s;
 }
 .footer-nav a {
-  font-size: 30px;
+  font-size: 1.875rem;
   vertical-align: middle;
   color: #86878b;
 }
@@ -25,7 +25,7 @@
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
   font-size: 9px;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: #86878b;
 }
 .facebook-footer:hover {

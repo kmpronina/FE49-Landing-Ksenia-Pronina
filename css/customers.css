@@ -1,6 +1,6 @@
 .customers {
   background-color: #fff;
-  padding: 80px 0 45px;
+  padding: 5rem 0 2.8125rem;
 }
 .customers-wrap {
   display: flex;
@@ -30,9 +30,9 @@
 .customers-card__opinion p {
   margin: auto;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   padding: 15px 15px;
 }
 .customers-card__opinion::after {
@@ -57,8 +57,8 @@
 .cusstomers-card__img {
   border: 0px solid rgb(231, 36, 36);
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
+  height: 4.375rem;
+  width: 4.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,18 +74,18 @@
 }
 span.customers-card-info-name__name {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #333;
   display: block;
 }
 
 .customers-card-info-name__job {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #86878b;
   display: block;
   margin-top: 15px;

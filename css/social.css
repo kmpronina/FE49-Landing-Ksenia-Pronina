@@ -16,15 +16,15 @@
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   color: #333;
   margin-bottom: 10px;
 }
 .social-info-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
   color: #86878b;
@@ -33,7 +33,7 @@
   margin: 0 15px;
 }
 .social-nav {
-  width: 650px;
+  width: 27.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
   /* margin-left: 55px; */
 }
 .social-nav a {
-  font-size: 40px;
+  font-size: 2.5rem;
   vertical-align: middle;
 }
 i {
